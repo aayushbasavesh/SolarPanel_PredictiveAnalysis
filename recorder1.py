@@ -12,7 +12,7 @@ import csv
 timestamp = time.strftime("%Y-%m-%d-%H-%M-%S")
 ser = '/dev/ttyACM0'
 baud_rate = 9600; #In arduino, Serial.begin(baud_rate)
-filepath = "/home/pi/Documents/SolarPanel_PredictiveAnalysis/source_data/V1.2/" + timestamp + ".csv";
+filepath = "/home/pi/Documents/final_project/source_data/V1.2/" + timestamp + ".csv";
 input_stream = serial.Serial(ser, baud_rate,)
 fields = ['Date&Time','Voltage','SC_Current']
 print("Writing output to file: " + filepath + "\n")
