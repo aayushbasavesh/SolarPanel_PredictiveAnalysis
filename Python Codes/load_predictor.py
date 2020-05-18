@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np # matplotlib and seaborn are used for plotting graphs 
 import matplotlib.pyplot as plt 
 import seaborn
-path = '~/Documents/FinalYearProject/test/load_data_final.csv'
+path = '~/Documents/FinalYearProject/SolarPanel_PredictiveAnalysis/DataSet/load_data_final.csv'
 Df= pd.read_csv(path)
 Df.head()
 Df.shape
